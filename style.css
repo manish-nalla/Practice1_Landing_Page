@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.container {
+    max-width: 80vw;
+}
+
+.nav-bar {
+    display: flex;
+    height: 67px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top-left {
+    width: 50%;
+}
+
+.top-right {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+}
+
+.dumbellimg {
+    width: 289px;
+}
+
+.top-right .gymimg {
+    width: 466px;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+}
+
+.section2 p {
+    text-align: center;
+    padding: 0 8vw;
+}
+
+.box {
+    padding: 12px 0;
+    margin: 12px 23px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 12px 0px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    padding: 15px 0;
+    width: 23vw;
+    border-bottom: 2px solid black;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.5rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
